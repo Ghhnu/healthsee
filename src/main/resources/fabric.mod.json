@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "realhealth",
+  "version": "${version}",
+  "name": "Real Health",
+  "description": "Muestra la vida real (corazones exactos) de jugadores y mobs encima de su nombre. Funciona solo en el cliente, sin permisos de servidor.",
+  "authors": [
+    "Tú"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "com.realhealth.RealHealthMod"
+    ],
+    "client": [
+      "com.realhealth.client.RealHealthClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "fabric": "*",
+    "minecraft": "~26.1",
+    "java": ">=25"
+  }
+}
